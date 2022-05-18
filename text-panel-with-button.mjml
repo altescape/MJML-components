@@ -1,0 +1,84 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-class
+        name="body"
+        background-color="#FFFFFF"
+      />
+      <mj-class
+        name="button"
+        background-color="#007bff"
+        font-size="18px"
+        height="24px"
+        line-height="24px"
+        border-radius="8px"
+        font-weight="bold"
+      />
+      <mj-class
+        name="panel-wrapper"
+        padding-left="20px"
+        padding-right="20px"
+        padding-top="0"
+        padding-bottom="0"
+      />
+      <mj-class
+        name="panel"
+        background-color="#e5f2ff"
+        padding-top="30px"
+        padding-right="30px"
+        padding-bottom="20px"
+        padding-left="30px"
+      />
+      <mj-class
+        name="rounded"
+        border-radius="8px"
+      />
+      <mj-class
+        name="panel-content-x-padding"
+        padding-left="5px"
+        padding-right="5px"
+      />
+      <mj-class
+        name="panel-yellow"
+        background-color="#fff8dc"
+      />
+      <mj-class
+        name="panel-inner-padding"
+        padding-left="0"
+        padding-right="0"
+      />
+      <mj-class
+        name="text-sm"
+        font-size="14px"
+      />
+      <mj-class
+        name="bold"
+        font-weight="bold"
+      />
+      <mj-all font-family="sans-serif" font-size="18px" line-height="25px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body mj-class="body">
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          Simple panel with button.
+        </mj-text>
+        <mj-text>
+          Tested in iOS Mail, GMail and Windows Outlook App.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="panel-wrapper" padding-bottom="15px" padding-top="25px">
+      <mj-column mj-class="panel rounded panel-yellow">
+        <mj-text mj-class="panel-inner-padding bold">
+          ⚠️ Reauthorise Swiftaid today
+        </mj-text>
+        <mj-text mj-class="panel-inner-padding">
+          Help charities collect Gift Aid on your donations for another year by reauthorising Swiftaid today. It’s free for you and will only take a minute.
+        </mj-text>
+        <mj-button align="left" mj-class="button panel-inner-padding" href="{{TAG_REAUTH_LINK}}">Reauthorise Swiftaid</mj-button>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
