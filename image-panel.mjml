@@ -71,12 +71,12 @@
         <mj-column width="35%"></mj-column>
         <mj-column width="65%" mj-class="rounded panel-grey panel-column-padding">
           <mj-text mj-class="bold panel-content-x-padding">
-            Find out if you can claim money from HMRC in just a few minutes
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </mj-text>
           <mj-text mj-class="panel-content-x-padding">
-            £1,000,000,000 in tax relief is missed because 9 out of 10 UK taxpayers don't claim what they are owed.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
           </mj-text>
-          <mj-button align="left" mj-class="button panel-content-x-padding" href="https://www.swiftaid.co.uk/higher-rate-relief">Learn more here</mj-button>
+          <mj-button align="left" mj-class="button panel-content-x-padding" href="https://www.example.com">Learn more here</mj-button>
         </mj-column>
       </mj-section>
     </mj-wrapper>
