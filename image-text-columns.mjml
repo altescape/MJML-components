@@ -1,0 +1,81 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-class
+        name="body"
+        background-color="#FFFFFF"
+      />
+      <mj-class
+        name="button"
+        background-color="#007bff"
+        font-size="18px"
+        height="24px"
+        line-height="24px"
+        border-radius="8px"
+        font-weight="bold"
+      />
+      <mj-class
+        name="panel-wrapper"
+        padding-left="20px"
+        padding-right="20px"
+        padding-top="0"
+        padding-bottom="0"
+      />
+      <mj-class
+        name="rounded"
+        border-radius="8px"
+      />
+      <mj-class
+        name="panel-column-padding"
+        padding="8px"
+      />
+      <mj-class
+        name="panel-content-x-padding"
+        padding-left="5px"
+        padding-right="5px"
+      />
+      <mj-class
+        name="bold"
+        font-weight="bold"
+      />
+      <mj-all font-family="sans-serif" font-size="18px" line-height="25px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body mj-class="body">
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          A responsive component for displaying an image with text.
+          On smaller devices the image sits above the text and the text is displayed in a single column.
+        </mj-text>
+        <mj-text>
+          Tested in iOS Mail, GMail and Windows Outlook App.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-wrapper padding="10px">
+      <mj-section>
+        <mj-column width="40%" vertical-align="middle" padding="5px">
+          <mj-image
+            mj-class="rounded"
+            href="https://www.swiftaid.co.uk/higher-rate-relief"
+            alt="Missed tax relief"
+            src="https://images.unsplash.com/photo-1586486855514-8c633cc6fd38?auto=format&fit=crop&w=300&h=180&q=80"
+            padding="5px"
+            fluid-on-mobile="true"
+          ></mj-image>
+        </mj-column>
+        <mj-column width="60%"  vertical-align="middle" padding="5px">
+          <mj-text mj-class="bold panel-content-x-padding">
+            9 out of 10 people eligible to claim tax relief assume they can’t!
+          </mj-text>
+          <mj-text mj-class="panel-content-x-padding">
+            £1,000,000,000 is missed every year. Take a few minutes to check if HMRC owes you money.
+          </mj-text>
+          <mj-button align="left" mj-class="button panel-content-x-padding" href="https://www.swiftaid.co.uk/higher-rate-relief">Learn more here</mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
