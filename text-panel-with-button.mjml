@@ -72,12 +72,13 @@
     <mj-section mj-class="panel-wrapper" padding-bottom="15px" padding-top="25px">
       <mj-column mj-class="panel rounded panel-yellow">
         <mj-text mj-class="panel-inner-padding bold">
-          ⚠️ Reauthorise Swiftaid today
+          ⚠️ Lorem ipsum dolor sit amet
         </mj-text>
         <mj-text mj-class="panel-inner-padding">
-          Help charities collect Gift Aid on your donations for another year by reauthorising Swiftaid today. It’s free for you and will only take a minute.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
         </mj-text>
-        <mj-button align="left" mj-class="button panel-inner-padding" href="{{TAG_REAUTH_LINK}}">Reauthorise Swiftaid</mj-button>
+        <mj-button align="left" mj-class="button panel-inner-padding" href="https://www.example.com">Learn more here</mj-button>
       </mj-column>
     </mj-section>
   </mj-body>
